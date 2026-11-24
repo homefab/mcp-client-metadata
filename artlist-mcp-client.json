@@ -1,0 +1,16 @@
+{
+  "client_id": "https://homefab.github.io/mcp-client-metadata/artlist-mcp-client.json",
+  "client_name": "Antigravity Artlist MCP",
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "redirect_uris": [
+    "http://localhost:40217/oauth/callback",
+    "http://127.0.0.1:40217/oauth/callback"
+  ],
+  "token_endpoint_auth_method": "none"
+}
